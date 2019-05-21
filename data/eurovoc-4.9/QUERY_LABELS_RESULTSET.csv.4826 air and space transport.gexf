@@ -1,0 +1,2138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="7" title="rels" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="weight" type="long" />
+      <attribute id="1" title="uris" type="string" />
+      <attribute id="2" title="hierarchical_in" type="long" />
+      <attribute id="3" title="hierarchical_out" type="long" />
+      <attribute id="4" title="orthogonal_out" type="long" />
+      <attribute id="5" title="label_out" type="long" />
+      <attribute id="6" title="depth" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>15/05/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="air transport" label="air transport">
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4505" />
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="aviation" label="aviation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="aeronautics" label="aeronautics">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="air service" label="air service">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="air traffic" label="air traffic">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2039" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="air navigation" label="air navigation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="airport" label="airport">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/195" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="airport infrastructure" label="airport infrastructure">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="aerodrome" label="aerodrome">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="airport facilities" label="airport facilities">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="airline" label="airline">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3125" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="air connection" label="air connection">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="aircraft" label="aircraft">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4438" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="10" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="aerodyne" label="aerodyne">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="aeroplane" label="aeroplane">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="aeronautical equipment" label="aeronautical equipment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="low cost airline" label="low cost airline">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/8463" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="budget carrier" label="budget carrier">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="budget airline" label="budget airline">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="satellite" label="satellite">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3905" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="artificial satellite" label="artificial satellite">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="high altitude airport" label="high altitude airport">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="heliport" label="heliport">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="civilian aircraft" label="civilian aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="civil aircraft" label="civil aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="commercial aircraft" label="commercial aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="civil aviation" label="civil aviation">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4408" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="civil aeronautics" label="civil aeronautics">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="discount carrier" label="discount carrier">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="discount airline" label="discount airline">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="ground handling" label="ground handling">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6855" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="ground handling services" label="ground handling services">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="low fare carrier" label="low fare carrier">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="low cost carrier" label="low cost carrier">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="low fare airline" label="low fare airline">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="space technology" label="space technology">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5239" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="launching of space vehicles" label="launching of space vehicles">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="man-made satellite" label="man-made satellite">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="space navigation" label="space navigation">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5216" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="manned space flight" label="manned space flight">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="launch facility" label="launch facility">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5677" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="launch pad" label="launch pad">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="plane" label="plane">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="passenger aircraft" label="passenger aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="no frills carrier" label="no frills carrier">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="no frills airline" label="no frills airline">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="runway" label="runway">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="seaplane base" label="seaplane base">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="regional airport" label="regional airport">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="tourist aircraft" label="tourist aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="transport aircraft" label="transport aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="space propulsion" label="space propulsion">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="space technique" label="space technique">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="ramp handling" label="ramp handling">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="space flight" label="space flight">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="launch vehicle" label="launch vehicle">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5699" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="space rocket" label="space rocket">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="shuttle" label="shuttle">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="launch assembly" label="launch assembly">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="drone" label="drone">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/c_681e6d24" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="10" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="pilotless aircraft" label="pilotless aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="RPA" label="RPA">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="aviation security" label="aviation security">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/c_c8c80a5b" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="civil aviation security" label="civil aviation security">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="aerostat" label="aerostat">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/c_ea3f5ed2" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="lighter-than-air aircraft" label="lighter-than-air aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="Single European Sky" label="Single European Sky">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/c_52792cef" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="SES" label="SES">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="drone aircraft" label="drone aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="hot-air balloon" label="hot-air balloon">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="airship" label="airship">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="unmanned combat aerial vehicle" label="unmanned combat aerial vehicle">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="UA" label="UA">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="air security" label="air security">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="air transport security" label="air transport security">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="unmanned aircraft" label="unmanned aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="remotely piloted aircraft" label="remotely piloted aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="UAV" label="UAV">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="unmanned aerial vehicle" label="unmanned aerial vehicle">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="UCAV" label="UCAV">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="aircraft fleet" label="aircraft fleet">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1033" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="helicopter" label="helicopter">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1238" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="air cabotage" label="air cabotage">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5471" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="space vehicle" label="space vehicle">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3093" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="space transport" label="space transport">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3092" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="European Space Agency" label="European Space Agency">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="International Civil Aviation Organisation" label="International Civil Aviation Organisation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="air traffic control" label="air traffic control">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="aeronautical industry" label="aeronautical industry">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="air space" label="air space">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="air law" label="air law">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="aerospace industry" label="aerospace industry">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="common transport policy" label="common transport policy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="leisure" label="leisure">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="meteorology" label="meteorology">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="provision of services" label="provision of services">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="satellite communications" label="satellite communications">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="transport staff" label="transport staff">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="transport infrastructure" label="transport infrastructure">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="European Civil Aviation Conference" label="European Civil Aviation Conference">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="IATA" label="IATA">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="air freight rate" label="air freight rate">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="aviation fuel" label="aviation fuel">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="combat helicopter" label="combat helicopter">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="fighter aircraft" label="fighter aircraft">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="liberalisation of the market" label="liberalisation of the market">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="maritime cabotage" label="maritime cabotage">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="military aircraft" label="military aircraft">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="noise" label="noise">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="public safety" label="public safety">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="remote sensing" label="remote sensing">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="road cabotage" label="road cabotage">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="space station" label="space station">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="space policy" label="space policy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="traffic signs" label="traffic signs">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="air safety" label="air safety">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="astronautics" label="astronautics">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="space science" label="space science">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="air transport" target="aviation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="air transport" target="aeronautics" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="air transport" target="air service" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="air transport" target="air traffic control" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="air transport" target="aeronautical industry" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="air transport" target="air space" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="air transport" target="air law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="air transport" target="transport staff" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="air transport" target="IATA" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="air transport" target="air freight rate" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="air transport" target="aviation fuel" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="air transport" target="military aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="air transport" target="air safety" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="air traffic" target="air navigation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="air traffic" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="air traffic" target="air traffic control" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="air traffic" target="traffic signs" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="airport" target="airport infrastructure" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="airport" target="aerodrome" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="airport" target="airport facilities" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="airport" target="high altitude airport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="airport" target="heliport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="airport" target="runway" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="airport" target="seaplane base" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="airport" target="regional airport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="airport" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="airport" target="air traffic control" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="airport" target="transport infrastructure" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="airport" target="noise" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="airline" target="air connection" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="airline" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="aircraft" target="aerodyne" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="aircraft" target="aeroplane" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="aircraft" target="aeronautical equipment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="aircraft" target="civilian aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="aircraft" target="civil aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="aircraft" target="commercial aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="aircraft" target="plane" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="aircraft" target="passenger aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="aircraft" target="tourist aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="aircraft" target="transport aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="aircraft" target="aircraft fleet" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="aircraft" target="aeronautical industry" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="aircraft" target="fighter aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="aircraft" target="military aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="low cost airline" target="budget carrier" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="low cost airline" target="budget airline" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="low cost airline" target="discount carrier" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="low cost airline" target="discount airline" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="low cost airline" target="low fare carrier" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="low cost airline" target="low cost carrier" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="low cost airline" target="low fare airline" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="low cost airline" target="no frills carrier" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="low cost airline" target="no frills airline" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="low cost airline" target="airline" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="low cost airline" target="liberalisation of the market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="satellite" target="artificial satellite" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="satellite" target="man-made satellite" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="satellite" target="space vehicle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="satellite" target="aerospace industry" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="satellite" target="satellite communications" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="satellite" target="remote sensing" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="civil aviation" target="civil aeronautics" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="civil aviation" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="civil aviation" target="International Civil Aviation Organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="civil aviation" target="European Civil Aviation Conference" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="ground handling" target="ground handling services" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="ground handling" target="ramp handling" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="ground handling" target="airport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="ground handling" target="provision of services" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="space technology" target="launching of space vehicles" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="space technology" target="space propulsion" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="space technology" target="space technique" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="space technology" target="space transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="space navigation" target="manned space flight" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="space navigation" target="space flight" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="space navigation" target="space transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="space navigation" target="astronautics" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="launch facility" target="launch pad" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="launch facility" target="launch assembly" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="launch facility" target="space transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="launch vehicle" target="space rocket" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="launch vehicle" target="shuttle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="launch vehicle" target="space vehicle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="drone" target="pilotless aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="drone" target="RPA" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="drone" target="drone aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="drone" target="unmanned combat aerial vehicle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="drone" target="UA" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="drone" target="unmanned aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="drone" target="remotely piloted aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="drone" target="UAV" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="drone" target="unmanned aerial vehicle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="drone" target="UCAV" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="drone" target="aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="aviation security" target="civil aviation security" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="aviation security" target="air security" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="aviation security" target="air transport security" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="aviation security" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="aviation security" target="public safety" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="aviation security" target="air safety" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="aerostat" target="lighter-than-air aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="aerostat" target="hot-air balloon" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="aerostat" target="airship" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="aerostat" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="aerostat" target="leisure" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="aerostat" target="meteorology" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="Single European Sky" target="SES" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="Single European Sky" target="air traffic" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="Single European Sky" target="common transport policy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="aircraft fleet" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="aircraft fleet" target="military aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="helicopter" target="aircraft fleet" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="helicopter" target="combat helicopter" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="air cabotage" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="air cabotage" target="maritime cabotage" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="air cabotage" target="road cabotage" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="space vehicle" target="space transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="space vehicle" target="space station" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="space transport" target="European Space Agency" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="space transport" target="aerospace industry" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="space transport" target="space policy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="space transport" target="space science" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="European Space Agency" target="space transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="International Civil Aviation Organisation" target="civil aviation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="air traffic control" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="air traffic control" target="air traffic" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="air traffic control" target="airport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="aeronautical industry" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="aeronautical industry" target="aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="air space" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="air law" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="aerospace industry" target="satellite" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="aerospace industry" target="space transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="common transport policy" target="Single European Sky" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="leisure" target="aerostat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="meteorology" target="aerostat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="provision of services" target="ground handling" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="satellite communications" target="satellite" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="transport staff" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="transport infrastructure" target="airport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="European Civil Aviation Conference" target="civil aviation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="IATA" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="air freight rate" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="aviation fuel" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="combat helicopter" target="helicopter" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="fighter aircraft" target="aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="liberalisation of the market" target="low cost airline" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="maritime cabotage" target="air cabotage" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="military aircraft" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="150" source="military aircraft" target="aircraft" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="151" source="military aircraft" target="aircraft fleet" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="152" source="noise" target="airport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="153" source="public safety" target="aviation security" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="154" source="remote sensing" target="satellite" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="155" source="road cabotage" target="air cabotage" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="156" source="space station" target="space vehicle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="157" source="space policy" target="space transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="158" source="traffic signs" target="air traffic" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="159" source="air safety" target="air transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="160" source="air safety" target="aviation security" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="161" source="astronautics" target="space navigation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="162" source="space science" target="space transport" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

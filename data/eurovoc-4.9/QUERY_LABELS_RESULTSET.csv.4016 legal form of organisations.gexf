@@ -1,0 +1,1602 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="7" title="rels" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="weight" type="long" />
+      <attribute id="1" title="uris" type="string" />
+      <attribute id="2" title="hierarchical_in" type="long" />
+      <attribute id="3" title="hierarchical_out" type="long" />
+      <attribute id="4" title="orthogonal_out" type="long" />
+      <attribute id="5" title="label_out" type="long" />
+      <attribute id="6" title="depth" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>15/05/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="organisation" label="organisation">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4189" />
+          <attvalue for="2" value="12" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="organization" label="organization">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="Economic Interest Grouping" label="Economic Interest Grouping">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1200" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="EIG" label="EIG">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="European company" label="European company">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4202" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="European public limited company" label="European public limited company">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="European cooperative" label="European cooperative">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6757" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="European cooperative society" label="European cooperative society">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="European Economic Interest Grouping" label="European Economic Interest Grouping">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5658" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="EEIG" label="EEIG">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="company constituted under civil law" label="company constituted under civil law">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4191" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="civil law partnership" label="civil law partnership">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="company governed by civil law" label="company governed by civil law">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="firm governed by commercial law" label="firm governed by commercial law">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4193" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="commercial firm" label="commercial firm">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cooperative" label="cooperative">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/227" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cooperative company" label="cooperative company">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cooperative society" label="cooperative society">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="limited partnership" label="limited partnership">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4200" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="company limited by shares" label="company limited by shares">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="firm governed by civil law" label="firm governed by civil law">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="firm constituted under civil law" label="firm constituted under civil law">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="partnership" label="partnership">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4199" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="general partnership" label="general partnership">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="company with share capital" label="company with share capital">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4196" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="joint stock company" label="joint stock company">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="legal status of an undertaking" label="legal status of an undertaking">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="nonstock corporation" label="nonstock corporation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="noncommercial partnership" label="noncommercial partnership">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="nontrading partnership" label="nontrading partnership">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="private limited company" label="private limited company">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3896" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="limited liability company" label="limited liability company">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="holding company" label="holding company">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1247" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="management company" label="management company">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="mixed-ownership company" label="mixed-ownership company">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4194" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="mixed-investment company" label="mixed-investment company">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="non-profit organisation" label="non-profit organisation">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4204" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="non-profit company" label="non-profit company">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="non-profit association" label="non-profit association">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="non-profit organization" label="non-profit organization">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="private limited-liability company" label="private limited-liability company">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="public limited company" label="public limited company">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4190" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="public limited liability company" label="public limited liability company">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="plc" label="plc">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="partly nationalised undertaking" label="partly nationalised undertaking">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3007" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="partly nationalized undertaking" label="partly nationalized undertaking">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="registered company" label="registered company">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="undisclosed partnership" label="undisclosed partnership">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4201" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="sleeping partnership" label="sleeping partnership">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="workers' cooperative" label="workers' cooperative">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cooperative entreprise" label="cooperative entreprise">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="foundation" label="foundation">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1051" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="institution of public utility" label="institution of public utility">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/874" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="consortium" label="consortium">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3060" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="professional partnership" label="professional partnership">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4192" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="European undertaking" label="European undertaking">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="agricultural cooperative" label="agricultural cooperative">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="board of directors" label="board of directors">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="competition law" label="competition law">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="corporation tax" label="corporation tax">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="consumer cooperative" label="consumer cooperative">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="credit union" label="credit union">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employment policy" label="employment policy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="gift" label="gift">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="incorporation" label="incorporation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="inter-company cooperation" label="inter-company cooperation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="joint venture" label="joint venture">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="legal person" label="legal person">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="liberal profession" label="liberal profession">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="merger control" label="merger control">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="mixed economy" label="mixed economy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="producer group" label="producer group">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="public sector" label="public sector">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="right of establishment" label="right of establishment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="restrictive trade practice" label="restrictive trade practice">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="shareholding" label="shareholding">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="type of business" label="type of business">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="company member" label="company member">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="investment income" label="investment income">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="investment company" label="investment company">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="share capital" label="share capital">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="shareholder" label="shareholder">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="share" label="share">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="social economy" label="social economy">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="voluntary organisation" label="voluntary organisation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="European legal status" label="European legal status">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="reintegration enterprise" label="reintegration enterprise">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="organisation" target="organization" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="organisation" target="legal status of an undertaking" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="organisation" target="corporation tax" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="organisation" target="incorporation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="organisation" target="legal person" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="organisation" target="type of business" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="organisation" target="share capital" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Economic Interest Grouping" target="EIG" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Economic Interest Grouping" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Economic Interest Grouping" target="inter-company cooperation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Economic Interest Grouping" target="producer group" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="European company" target="European public limited company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="European company" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="European company" target="European undertaking" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="European company" target="right of establishment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="European company" target="European legal status" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="European cooperative" target="European cooperative society" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="European cooperative" target="cooperative" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="European Economic Interest Grouping" target="EEIG" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="European Economic Interest Grouping" target="Economic Interest Grouping" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="company constituted under civil law" target="civil law partnership" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="company constituted under civil law" target="company governed by civil law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="company constituted under civil law" target="firm governed by civil law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="company constituted under civil law" target="firm constituted under civil law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="company constituted under civil law" target="nonstock corporation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="company constituted under civil law" target="noncommercial partnership" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="company constituted under civil law" target="nontrading partnership" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="company constituted under civil law" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="firm governed by commercial law" target="commercial firm" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="firm governed by commercial law" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="firm governed by commercial law" target="share" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="cooperative" target="cooperative company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="cooperative" target="cooperative society" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="cooperative" target="workers' cooperative" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="cooperative" target="cooperative entreprise" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="cooperative" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="cooperative" target="agricultural cooperative" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="cooperative" target="consumer cooperative" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="cooperative" target="credit union" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="cooperative" target="social economy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="limited partnership" target="company limited by shares" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="limited partnership" target="firm governed by commercial law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="partnership" target="general partnership" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="partnership" target="firm governed by commercial law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="partnership" target="company member" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="company with share capital" target="joint stock company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="company with share capital" target="registered company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="company with share capital" target="firm governed by commercial law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="company with share capital" target="investment income" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="company with share capital" target="investment company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="company with share capital" target="share capital" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="company with share capital" target="shareholder" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="private limited company" target="limited liability company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="private limited company" target="private limited-liability company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="private limited company" target="firm governed by commercial law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="holding company" target="management company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="holding company" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="holding company" target="shareholding" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="mixed-ownership company" target="mixed-investment company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="mixed-ownership company" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="mixed-ownership company" target="mixed economy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="mixed-ownership company" target="public sector" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="non-profit organisation" target="non-profit company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="non-profit organisation" target="non-profit association" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="non-profit organisation" target="non-profit organization" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="non-profit organisation" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="non-profit organisation" target="social economy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="non-profit organisation" target="voluntary organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="public limited company" target="public limited liability company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="public limited company" target="plc" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="public limited company" target="company with share capital" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="public limited company" target="board of directors" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="partly nationalised undertaking" target="partly nationalized undertaking" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="partly nationalised undertaking" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="partly nationalised undertaking" target="employment policy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="partly nationalised undertaking" target="reintegration enterprise" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="undisclosed partnership" target="sleeping partnership" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="undisclosed partnership" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="undisclosed partnership" target="shareholding" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="foundation" target="non-profit organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="foundation" target="gift" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="institution of public utility" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="consortium" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="consortium" target="competition law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="consortium" target="joint venture" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="consortium" target="merger control" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="consortium" target="restrictive trade practice" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="professional partnership" target="company constituted under civil law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="professional partnership" target="liberal profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="European undertaking" target="European company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="agricultural cooperative" target="cooperative" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="board of directors" target="public limited company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="competition law" target="consortium" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="corporation tax" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="consumer cooperative" target="cooperative" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="credit union" target="cooperative" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="employment policy" target="partly nationalised undertaking" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="gift" target="foundation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="incorporation" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="inter-company cooperation" target="Economic Interest Grouping" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="joint venture" target="consortium" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="legal person" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="liberal profession" target="professional partnership" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="merger control" target="consortium" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="mixed economy" target="mixed-ownership company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="producer group" target="Economic Interest Grouping" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="public sector" target="mixed-ownership company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="right of establishment" target="European company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="restrictive trade practice" target="consortium" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="shareholding" target="holding company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="shareholding" target="undisclosed partnership" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="type of business" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="company member" target="partnership" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="investment income" target="company with share capital" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="investment company" target="company with share capital" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="share capital" target="organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="share capital" target="company with share capital" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="shareholder" target="company with share capital" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="share" target="firm governed by commercial law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="social economy" target="cooperative" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="social economy" target="non-profit organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="voluntary organisation" target="non-profit organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="European legal status" target="European company" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="reintegration enterprise" target="partly nationalised undertaking" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

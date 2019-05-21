@@ -1,0 +1,4475 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="7" title="rels" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="weight" type="long" />
+      <attribute id="1" title="uris" type="string" />
+      <attribute id="2" title="hierarchical_in" type="long" />
+      <attribute id="3" title="hierarchical_out" type="long" />
+      <attribute id="4" title="orthogonal_out" type="long" />
+      <attribute id="5" title="label_out" type="long" />
+      <attribute id="6" title="depth" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>15/05/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="worker (EU)" label="worker (EU)">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4557" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="Community worker" label="Community worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="EURES" label="EURES">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4054" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="SEDOC" label="SEDOC">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="European Employment Services" label="European Employment Services">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="worker adaptability" label="worker adaptability">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6348" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="adaptation of the worker" label="adaptation of the worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="migrant worker" label="migrant worker">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4562" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="emigrant worker" label="emigrant worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="frontier worker" label="frontier worker">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4558" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cross-border worker" label="cross-border worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="wage earner" label="wage earner">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3854" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employed person" label="employed person">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employee" label="employee">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employment service" label="employment service">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4113" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employment office" label="employment office">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employment agency" label="employment agency">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employee adaptability" label="employee adaptability">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="foreign worker" label="foreign worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="immigrant worker" label="immigrant worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="foreign labour" label="foreign labour">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="worker with disabilities" label="worker with disabilities">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4559" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="handicapped worker" label="handicapped worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="clandestine worker" label="clandestine worker">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4556" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="illicit worker" label="illicit worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="manpower needs" label="manpower needs">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4851" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="manpower demand" label="manpower demand">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="labour supply" label="labour supply">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="manpower requirements" label="manpower requirements">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="intra-Community worker" label="intra-Community worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="labour exchange" label="labour exchange">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="job centre" label="job centre">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="manpower service" label="manpower service">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="labour shortage" label="labour shortage">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6353" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="lack of staff" label="lack of staff">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="labour flexibility" label="labour flexibility">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6350" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="labour force flexibility" label="labour force flexibility">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="manpower flexibility" label="manpower flexibility">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="skill obsolescence" label="skill obsolescence">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6351" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="obsolescence of qualifications" label="obsolescence of qualifications">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="obsolete qualification" label="obsolete qualification">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="working poor" label="working poor">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6745" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="poor worker" label="poor worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="placement service" label="placement service">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="placement office" label="placement office">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="multiskilled worker" label="multiskilled worker">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6354" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="multi-skilled worker" label="multi-skilled worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="socioprofessional category" label="socioprofessional category">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5275" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="socio-professional category" label="socio-professional category">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="senior management" label="senior management">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5085" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="top management" label="top management">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="temporary employment agency" label="temporary employment agency">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5207" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="temporary employment office" label="temporary employment office">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="staff shortage" label="staff shortage">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="staff adaptability" label="staff adaptability">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="work flexibility" label="work flexibility">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="workforce flexibility" label="workforce flexibility">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="workforce adaptability" label="workforce adaptability">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="European system for the international clearing of vacancies and applications for employment" label="European system for the international clearing of vacancies and applications for employment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="job access" label="job access">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/372" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="access to the labour market" label="access to the labour market">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="self-employed person" label="self-employed person">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3545" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="adviser" label="adviser">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="job application" label="job application">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/376" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="application for employment" label="application for employment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="auxiliary worker" label="auxiliary worker">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3539" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="auxiliary work" label="auxiliary work">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="supervisor" label="supervisor">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/481" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="charge hand" label="charge hand">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employment opportunity" label="employment opportunity">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="labour market" label="labour market">
+        <attvalues>
+          <attvalue for="0" value="23" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1802" />
+          <attvalue for="2" value="17" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="employment level" label="employment level">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="consultant" label="consultant">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="non-working population" label="non-working population">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2555" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="inactive" label="inactive">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="foreman" label="foreman">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employment situation" label="employment situation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="expert" label="expert">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="independent" label="independent">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="free-lance" label="free-lance">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="female worker" label="female worker">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1740" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="female labour" label="female labour">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="female work force" label="female work force">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="labour force" label="labour force">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1737" />
+          <attvalue for="2" value="20" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="manpower" label="manpower">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="job perspective" label="job perspective">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="job market" label="job market">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="labour mobility" label="labour mobility">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1946" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="manpower mobility" label="manpower mobility">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="job seeker" label="job seeker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="job applicant" label="job applicant">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="population of working age" label="population of working age">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2553" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="legal working age" label="legal working age">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="unskilled worker" label="unskilled worker">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1783" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="labourer" label="labourer">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="overseer" label="overseer">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="job vacancy" label="job vacancy">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2126" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="notification of a vacancy" label="notification of a vacancy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="white-collar worker" label="white-collar worker">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/732" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="non-manual worker" label="non-manual worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="job mobility" label="job mobility">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3325" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="occupational mobility" label="occupational mobility">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="professional qualifications" label="professional qualifications">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2868" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="required job qualifications" label="required job qualifications">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="professional competence" label="professional competence">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="professional ability" label="professional ability">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="professional incompetence" label="professional incompetence">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="staff mobility" label="staff mobility">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="self-employed worker" label="self-employed worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="search for a job" label="search for a job">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="search for employment" label="search for employment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="skilled worker" label="skilled worker">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2208" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="skilled labour" label="skilled labour">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="structure of the labour force" label="structure of the labour force">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="worker" label="worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="worker exchange" label="worker exchange">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="labour economics" label="labour economics">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/c_a9a17fe5" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="labour market theory" label="labour market theory">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="disabled worker" label="disabled worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="worker with reduced mobility" label="worker with reduced mobility">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="posted worker" label="posted worker">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/c_9eb9cbaa" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="posting of workers" label="posting of workers">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="labor economics" label="labor economics">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="older worker" label="older worker">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4555" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="elderly worker" label="elderly worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="online platform worker" label="online platform worker">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/c_95b02746" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="clic worker" label="clic worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="online worker" label="online worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="crowdworker" label="crowdworker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="apprentice" label="apprentice">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2276" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="blue-collar worker" label="blue-collar worker">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2207" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="craftsman" label="craftsman">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2784" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="occupational status" label="occupational status">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="employer" label="employer">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/735" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="family worker" label="family worker">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1739" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="first job" label="first job">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2593" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="liberal profession" label="liberal profession">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2788" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="persons in work" label="persons in work">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2552" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="working population" label="working population">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2550" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="semi-skilled worker" label="semi-skilled worker">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2209" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="young worker" label="young worker">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1529" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employment statistics" label="employment statistics">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3537" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="expatriate worker" label="expatriate worker">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3540" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="executive" label="executive">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5080" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="manual worker" label="manual worker">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4561" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="miner" label="miner">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5743" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="middle management" label="middle management">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5084" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="new type of employment" label="new type of employment">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5755" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="professional experience" label="professional experience">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5632" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="seasonal worker" label="seasonal worker">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4563" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="assisting spouse" label="assisting spouse">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6717" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="unemployed person" label="unemployed person">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5986" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="EU employment policy" label="EU employment policy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="European official" label="European official">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="agricultural labour force" label="agricultural labour force">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="apprenticeship" label="apprenticeship">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="civil rights" label="civil rights">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cultural difference" label="cultural difference">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="craft production" label="craft production">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="craft business" label="craft business">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="designated employment" label="designated employment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="disabled person" label="disabled person">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="education of foreigners" label="education of foreigners">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employment policy" label="employment policy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="elderly person" label="elderly person">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employers' organisation" label="employers' organisation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="equal pay" label="equal pay">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="equal treatment" label="equal treatment">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="family farming" label="family farming">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="family business" label="family business">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="free movement of workers" label="free movement of workers">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="frontier migration" label="frontier migration">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="freedom to provide services" label="freedom to provide services">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="health care profession" label="health care profession">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="housekeeping economy" label="housekeeping economy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="integration of migrants" label="integration of migrants">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="job description" label="job description">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="low income" label="low income">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="multinational enterprise" label="multinational enterprise">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="occupational migration" label="occupational migration">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="office worker" label="office worker">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="paramedical profession" label="paramedical profession">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="organisation of work" label="organisation of work">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="poverty" label="poverty">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="professional society" label="professional society">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="provision of services" label="provision of services">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="public service employee" label="public service employee">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="public legal official" label="public legal official">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="return migration" label="return migration">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="right of establishment" label="right of establishment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="seasonal migration" label="seasonal migration">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="social mobility" label="social mobility">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="vocational training" label="vocational training">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="work permit" label="work permit">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="working population engaged in agriculture" label="working population engaged in agriculture">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="young person" label="young person">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="child labour" label="child labour">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="employment structure" label="employment structure">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="economics" label="economics">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="female work" label="female work">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="fight against unemployment" label="fight against unemployment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="handicrafts" label="handicrafts">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="income in addition to normal pay" label="income in addition to normal pay">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="home working" label="home working">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="integration into employment" label="integration into employment">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="know-how" label="know-how">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="manpower planning" label="manpower planning">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="migrant" label="migrant">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="moonlighting" label="moonlighting">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="pay" label="pay">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="professional partnership" label="professional partnership">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="recruitment" label="recruitment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="residence permit" label="residence permit">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="social structure" label="social structure">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="social security legislation" label="social security legislation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="statistics" label="statistics">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="temporary employment" label="temporary employment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="technical profession" label="technical profession">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="updating of skills" label="updating of skills">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="unemployment insurance" label="unemployment insurance">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="unpaid work" label="unpaid work">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="youth employment" label="youth employment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="workers' stock ownership" label="workers' stock ownership">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="European Employment Strategy" label="European Employment Strategy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="age discrimination" label="age discrimination">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="female unemployment" label="female unemployment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="integration of the disabled" label="integration of the disabled">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="migrant unemployment" label="migrant unemployment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="non-standard employment" label="non-standard employment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="reassignment" label="reassignment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="reintegration enterprise" label="reintegration enterprise">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="self-employment" label="self-employment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="seasonal employment" label="seasonal employment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="seasonal unemployment" label="seasonal unemployment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="unemployment" label="unemployment">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="youth unemployment" label="youth unemployment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="working class" label="working class">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cross-border dimension" label="cross-border dimension">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="EU growth strategy" label="EU growth strategy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="collaborative economy" label="collaborative economy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="worker (EU)" target="Community worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="worker (EU)" target="intra-Community worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="worker (EU)" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="worker (EU)" target="EU employment policy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="worker (EU)" target="European official" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="worker (EU)" target="free movement of workers" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="EURES" target="SEDOC" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="EURES" target="European Employment Services" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="EURES" target="European system for the international clearing of vacancies and applications for employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="EURES" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="worker adaptability" target="adaptation of the worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="worker adaptability" target="employee adaptability" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="worker adaptability" target="staff adaptability" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="worker adaptability" target="workforce adaptability" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="worker adaptability" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="worker adaptability" target="European Employment Strategy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="migrant worker" target="emigrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="migrant worker" target="foreign worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="migrant worker" target="immigrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="migrant worker" target="foreign labour" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="migrant worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="migrant worker" target="civil rights" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="migrant worker" target="cultural difference" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="migrant worker" target="education of foreigners" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="migrant worker" target="equal pay" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="migrant worker" target="equal treatment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="migrant worker" target="free movement of workers" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="migrant worker" target="integration of migrants" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="migrant worker" target="return migration" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="migrant worker" target="work permit" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="migrant worker" target="migrant" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="migrant worker" target="residence permit" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="migrant worker" target="migrant unemployment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="frontier worker" target="cross-border worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="frontier worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="frontier worker" target="frontier migration" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="frontier worker" target="occupational migration" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="frontier worker" target="cross-border dimension" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="wage earner" target="employed person" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="wage earner" target="employee" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="wage earner" target="occupational status" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="wage earner" target="pay" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="employment service" target="employment office" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="employment service" target="employment agency" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="employment service" target="labour exchange" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="employment service" target="job centre" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="employment service" target="manpower service" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="employment service" target="placement service" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="employment service" target="placement office" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="employment service" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="worker with disabilities" target="handicapped worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="worker with disabilities" target="disabled worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="worker with disabilities" target="worker with reduced mobility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="worker with disabilities" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="worker with disabilities" target="designated employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="worker with disabilities" target="disabled person" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="worker with disabilities" target="integration of the disabled" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="clandestine worker" target="illicit worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="clandestine worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="clandestine worker" target="agricultural labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="clandestine worker" target="moonlighting" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="manpower needs" target="manpower demand" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="manpower needs" target="labour supply" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="manpower needs" target="manpower requirements" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="manpower needs" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="manpower needs" target="manpower planning" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="labour shortage" target="lack of staff" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="labour shortage" target="staff shortage" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="labour shortage" target="manpower needs" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="labour flexibility" target="labour force flexibility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="labour flexibility" target="manpower flexibility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="labour flexibility" target="work flexibility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="labour flexibility" target="workforce flexibility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="labour flexibility" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="labour flexibility" target="organisation of work" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="skill obsolescence" target="obsolescence of qualifications" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="skill obsolescence" target="obsolete qualification" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="skill obsolescence" target="professional qualifications" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="skill obsolescence" target="updating of skills" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="working poor" target="poor worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="working poor" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="working poor" target="low income" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="working poor" target="poverty" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="multiskilled worker" target="multi-skilled worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="multiskilled worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="socioprofessional category" target="socio-professional category" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="socioprofessional category" target="social structure" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="senior management" target="top management" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="senior management" target="executive" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="temporary employment agency" target="temporary employment office" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="temporary employment agency" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="temporary employment agency" target="temporary employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="job access" target="access to the labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="job access" target="employment opportunity" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="job access" target="job perspective" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="job access" target="job market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="job access" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="job access" target="equal treatment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="job access" target="integration into employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="job access" target="reintegration enterprise" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="self-employed person" target="adviser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="self-employed person" target="consultant" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="self-employed person" target="expert" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="self-employed person" target="independent" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="self-employed person" target="free-lance" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="self-employed person" target="self-employed worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="self-employed person" target="occupational status" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="self-employed person" target="professional society" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="self-employed person" target="income in addition to normal pay" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="self-employed person" target="self-employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="job application" target="application for employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="job application" target="job seeker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="job application" target="job applicant" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="job application" target="search for a job" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="job application" target="search for employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="job application" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="auxiliary worker" target="auxiliary work" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="auxiliary worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="supervisor" target="charge hand" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="supervisor" target="foreman" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="supervisor" target="overseer" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="supervisor" target="socioprofessional category" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="labour market" target="employment level" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="labour market" target="employment situation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="labour market" target="employment policy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="labour market" target="employment structure" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="labour market" target="integration into employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="labour market" target="unemployment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="non-working population" target="inactive" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="non-working population" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="non-working population" target="unemployment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="female worker" target="female labour" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="female worker" target="female work force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="female worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="female worker" target="equal pay" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="female worker" target="female work" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="female worker" target="home working" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="female worker" target="female unemployment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="labour force" target="manpower" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="labour force" target="structure of the labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="labour force" target="worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="labour force" target="agricultural labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="labour force" target="employment structure" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="labour mobility" target="manpower mobility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="labour mobility" target="staff mobility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="labour mobility" target="worker exchange" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="labour mobility" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="labour mobility" target="free movement of workers" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="labour mobility" target="expatriate worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="population of working age" target="legal working age" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="150" source="population of working age" target="working population" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="151" source="unskilled worker" target="labourer" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="152" source="unskilled worker" target="blue-collar worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="153" source="job vacancy" target="notification of a vacancy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="154" source="job vacancy" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="155" source="white-collar worker" target="non-manual worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="156" source="white-collar worker" target="socioprofessional category" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="157" source="white-collar worker" target="office worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="158" source="white-collar worker" target="public service employee" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="159" source="job mobility" target="occupational mobility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="160" source="job mobility" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="161" source="job mobility" target="social mobility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="162" source="job mobility" target="reassignment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="163" source="professional qualifications" target="required job qualifications" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="164" source="professional qualifications" target="professional competence" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="165" source="professional qualifications" target="professional ability" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="166" source="professional qualifications" target="professional incompetence" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="167" source="professional qualifications" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="168" source="professional qualifications" target="job description" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="169" source="professional qualifications" target="vocational training" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="170" source="professional qualifications" target="professional experience" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="171" source="professional qualifications" target="recruitment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="172" source="skilled worker" target="skilled labour" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="173" source="skilled worker" target="blue-collar worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="174" source="skilled worker" target="know-how" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="175" source="skilled worker" target="technical profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="176" source="labour economics" target="labour market theory" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="177" source="labour economics" target="labor economics" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="178" source="labour economics" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="179" source="labour economics" target="economics" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="180" source="labour economics" target="EU growth strategy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="181" source="posted worker" target="posting of workers" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="182" source="posted worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="183" source="posted worker" target="provision of services" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="184" source="posted worker" target="expatriate worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="185" source="posted worker" target="social security legislation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="186" source="older worker" target="elderly worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="187" source="older worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="188" source="older worker" target="elderly person" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="189" source="online platform worker" target="clic worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="190" source="online platform worker" target="online worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="191" source="online platform worker" target="crowdworker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="192" source="online platform worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="193" source="online platform worker" target="collaborative economy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="194" source="apprentice" target="blue-collar worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="195" source="apprentice" target="apprenticeship" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="196" source="blue-collar worker" target="socioprofessional category" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="197" source="blue-collar worker" target="agricultural labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="198" source="blue-collar worker" target="manual worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="199" source="blue-collar worker" target="workers' stock ownership" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="200" source="blue-collar worker" target="working class" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="201" source="craftsman" target="occupational status" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="202" source="craftsman" target="craft production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="203" source="craftsman" target="craft business" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="204" source="craftsman" target="handicrafts" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="205" source="craftsman" target="manual worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="206" source="employer" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="207" source="employer" target="employers' organisation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="208" source="family worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="209" source="family worker" target="family farming" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="210" source="family worker" target="family business" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="211" source="family worker" target="housekeeping economy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="212" source="family worker" target="child labour" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="213" source="family worker" target="unpaid work" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="214" source="first job" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="215" source="first job" target="integration into employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="216" source="liberal profession" target="occupational status" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="217" source="liberal profession" target="freedom to provide services" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="218" source="liberal profession" target="health care profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="219" source="liberal profession" target="paramedical profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="220" source="liberal profession" target="professional society" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="221" source="liberal profession" target="public legal official" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="222" source="liberal profession" target="right of establishment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="223" source="liberal profession" target="income in addition to normal pay" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="224" source="liberal profession" target="professional partnership" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="225" source="persons in work" target="working population" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="226" source="working population" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="227" source="working population" target="working population engaged in agriculture" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="228" source="semi-skilled worker" target="blue-collar worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="229" source="young worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="230" source="young worker" target="young person" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="231" source="young worker" target="youth employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="232" source="young worker" target="age discrimination" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="233" source="young worker" target="youth unemployment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="234" source="employment statistics" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="235" source="employment statistics" target="statistics" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="236" source="expatriate worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="237" source="expatriate worker" target="labour mobility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="238" source="expatriate worker" target="multinational enterprise" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="239" source="expatriate worker" target="posted worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="240" source="executive" target="socioprofessional category" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="241" source="manual worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="242" source="manual worker" target="blue-collar worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="243" source="manual worker" target="craftsman" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="244" source="miner" target="semi-skilled worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="245" source="middle management" target="executive" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="246" source="new type of employment" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="247" source="new type of employment" target="non-standard employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="248" source="professional experience" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="249" source="professional experience" target="professional qualifications" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="250" source="seasonal worker" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="251" source="seasonal worker" target="agricultural labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="252" source="seasonal worker" target="seasonal migration" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="253" source="seasonal worker" target="seasonal employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="254" source="seasonal worker" target="seasonal unemployment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="255" source="assisting spouse" target="occupational status" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="256" source="unemployed person" target="working population" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="257" source="unemployed person" target="fight against unemployment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="258" source="unemployed person" target="unemployment insurance" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="259" source="unemployed person" target="unemployment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="260" source="EU employment policy" target="worker (EU)" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="261" source="European official" target="worker (EU)" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="262" source="agricultural labour force" target="clandestine worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="263" source="agricultural labour force" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="264" source="agricultural labour force" target="blue-collar worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="265" source="agricultural labour force" target="seasonal worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="266" source="apprenticeship" target="apprentice" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="267" source="civil rights" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="268" source="cultural difference" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="269" source="craft production" target="craftsman" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="270" source="craft business" target="craftsman" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="271" source="designated employment" target="worker with disabilities" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="272" source="disabled person" target="worker with disabilities" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="273" source="education of foreigners" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="274" source="employment policy" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="275" source="elderly person" target="older worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="276" source="employers' organisation" target="employer" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="277" source="equal pay" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="278" source="equal pay" target="female worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="279" source="equal treatment" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="280" source="equal treatment" target="job access" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="281" source="family farming" target="family worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="282" source="family business" target="family worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="283" source="free movement of workers" target="worker (EU)" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="284" source="free movement of workers" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="285" source="free movement of workers" target="labour mobility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="286" source="frontier migration" target="frontier worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="287" source="freedom to provide services" target="liberal profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="288" source="health care profession" target="liberal profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="289" source="housekeeping economy" target="family worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="290" source="integration of migrants" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="291" source="job description" target="professional qualifications" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="292" source="low income" target="working poor" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="293" source="multinational enterprise" target="expatriate worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="294" source="occupational migration" target="frontier worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="295" source="office worker" target="white-collar worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="296" source="paramedical profession" target="liberal profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="297" source="organisation of work" target="labour flexibility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="298" source="poverty" target="working poor" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="299" source="professional society" target="self-employed person" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="300" source="professional society" target="liberal profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="301" source="provision of services" target="posted worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="302" source="public service employee" target="white-collar worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="303" source="public legal official" target="liberal profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="304" source="return migration" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="305" source="right of establishment" target="liberal profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="306" source="seasonal migration" target="seasonal worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="307" source="social mobility" target="job mobility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="308" source="vocational training" target="professional qualifications" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="309" source="work permit" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="310" source="working population engaged in agriculture" target="working population" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="311" source="young person" target="young worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="312" source="child labour" target="family worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="313" source="employment structure" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="314" source="employment structure" target="labour force" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="315" source="economics" target="labour economics" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="316" source="female work" target="female worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="317" source="fight against unemployment" target="unemployed person" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="318" source="handicrafts" target="craftsman" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="319" source="income in addition to normal pay" target="self-employed person" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="320" source="income in addition to normal pay" target="liberal profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="321" source="home working" target="female worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="322" source="integration into employment" target="job access" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="323" source="integration into employment" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="324" source="integration into employment" target="first job" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="325" source="know-how" target="skilled worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="326" source="manpower planning" target="manpower needs" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="327" source="migrant" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="328" source="moonlighting" target="clandestine worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="329" source="pay" target="wage earner" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="330" source="professional partnership" target="liberal profession" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="331" source="recruitment" target="professional qualifications" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="332" source="residence permit" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="333" source="social structure" target="socioprofessional category" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="334" source="social security legislation" target="posted worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="335" source="statistics" target="employment statistics" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="336" source="temporary employment" target="temporary employment agency" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="337" source="technical profession" target="skilled worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="338" source="updating of skills" target="skill obsolescence" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="339" source="unemployment insurance" target="unemployed person" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="340" source="unpaid work" target="family worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="341" source="youth employment" target="young worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="342" source="workers' stock ownership" target="blue-collar worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="343" source="European Employment Strategy" target="worker adaptability" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="344" source="age discrimination" target="young worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="345" source="female unemployment" target="female worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="346" source="integration of the disabled" target="worker with disabilities" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="347" source="migrant unemployment" target="migrant worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="348" source="non-standard employment" target="new type of employment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="349" source="reassignment" target="job mobility" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="350" source="reintegration enterprise" target="job access" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="351" source="self-employment" target="self-employed person" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="352" source="seasonal employment" target="seasonal worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="353" source="seasonal unemployment" target="seasonal worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="354" source="unemployment" target="labour market" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="355" source="unemployment" target="non-working population" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="356" source="unemployment" target="unemployed person" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="357" source="youth unemployment" target="young worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="358" source="working class" target="blue-collar worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="359" source="cross-border dimension" target="frontier worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="360" source="EU growth strategy" target="labour economics" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="361" source="collaborative economy" target="online platform worker" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

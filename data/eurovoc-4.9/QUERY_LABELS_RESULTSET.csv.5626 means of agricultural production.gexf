@@ -1,0 +1,2820 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="7" title="rels" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="weight" type="long" />
+      <attribute id="1" title="uris" type="string" />
+      <attribute id="2" title="hierarchical_in" type="long" />
+      <attribute id="3" title="hierarchical_out" type="long" />
+      <attribute id="4" title="orthogonal_out" type="long" />
+      <attribute id="5" title="label_out" type="long" />
+      <attribute id="6" title="depth" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>15/05/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="swine" label="swine">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2560" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="boar" label="boar">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cattle" label="cattle">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5034" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="buffalo" label="buffalo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="bovine species" label="bovine species">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="breed of cattle" label="breed of cattle">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="goat" label="goat">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5252" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="caprine species" label="caprine species">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="billy-goat" label="billy-goat">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="seedling" label="seedling">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2409" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cutting (plant)" label="cutting (plant)">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cervidae" label="cervidae">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6918" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="deer" label="deer">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="reindeer" label="reindeer">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6928" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="caribou" label="caribou">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="agricultural equipment" label="agricultural equipment">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/846" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="deadstock" label="deadstock">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="beef animal" label="beef animal">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5012" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="bullock" label="bullock">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="dairy cow" label="dairy cow">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4639" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="dairy herd" label="dairy herd">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="harvester" label="harvester">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1722" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="combine harvester" label="combine harvester">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="hog" label="hog">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="sheep" label="sheep">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2211" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="ewe" label="ewe">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="pesticide" label="pesticide">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2357" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="fungicide" label="fungicide">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="full-grown cattle" label="full-grown cattle">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="livestock" label="livestock">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5962" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="herd" label="herd">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="flock" label="flock">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="agricultural machinery" label="agricultural machinery">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1719" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="farm machinery" label="farm machinery">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="elk" label="elk">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="farm equipment" label="farm equipment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="agricultural implement" label="agricultural implement">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2204" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="farm implement" label="farm implement">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="lamb" label="lamb">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="kid" label="kid">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="live animals" label="live animals">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="moose" label="moose">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="milk cow" label="milk cow">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="porcine species" label="porcine species">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="pig" label="pig">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="ovine species" label="ovine species">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="plant health product" label="plant health product">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2985" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="plant protection product" label="plant protection product">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="suckler cow" label="suckler cow">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4638" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="nurse cow" label="nurse cow">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="sow" label="sow">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="ruminant" label="ruminant">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="steer" label="steer">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="reaping machine" label="reaping machine">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="herbicide" label="herbicide">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2987" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="weedkiller" label="weedkiller">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="agricultural building" label="agricultural building">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/152" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="barn" label="barn">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cattle-shed" label="cattle-shed">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cow-shed" label="cow-shed">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="byre" label="byre">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="equidae" label="equidae">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/842" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="colt" label="colt">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="ass" label="ass">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="organic fertiliser" label="organic fertiliser">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/767" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="compost" label="compost">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="means of agricultural production" label="means of agricultural production">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2014" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="agricultural technology" label="agricultural technology">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="agricultural infrastructure" label="agricultural infrastructure">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="chemical fertiliser" label="chemical fertiliser">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/765" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="chemical fertilizer" label="chemical fertilizer">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="fertiliser" label="fertiliser">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/764" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="fertilizer" label="fertilizer">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="farm building" label="farm building">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="equine species" label="equine species">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="foal" label="foal">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="donkey" label="donkey">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="dung" label="dung">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="horse" label="horse">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="inorganic fertiliser" label="inorganic fertiliser">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="mare" label="mare">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="mule" label="mule">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="manure" label="manure">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="organic fertilizer" label="organic fertilizer">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="liquid manure" label="liquid manure">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="nitrogenous fertiliser" label="nitrogenous fertiliser">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="phosphoric fertiliser" label="phosphoric fertiliser">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="potassium fertiliser" label="potassium fertiliser">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="urea" label="urea">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="agricultural engineering" label="agricultural engineering">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="heifer" label="heifer">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1146" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="bull" label="bull">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4388" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="calf" label="calf">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4650" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="cow" label="cow">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4637" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="insecticide" label="insecticide">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5227" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="livestock unit" label="livestock unit">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4612" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="milking machine" label="milking machine">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4484" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="seed" label="seed">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4081" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="tractor" label="tractor">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4476" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="silo" label="silo">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6319" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="agricultural waste" label="agricultural waste">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="agricultural production" label="agricultural production">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="agricultural production policy" label="agricultural production policy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="animal production" label="animal production">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="crop maintenance" label="crop maintenance">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="crop production" label="crop production">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cows’ milk cheese" label="cows’ milk cheese">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="destruction of crops" label="destruction of crops">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="fertiliser industry" label="fertiliser industry">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="food contamination" label="food contamination">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="goats’ milk cheese" label="goats’ milk cheese">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="livestock farming" label="livestock farming">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="machinery" label="machinery">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="milk" label="milk">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="milk product" label="milk product">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="mutual assistance among farmers" label="mutual assistance among farmers">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="plant health legislation" label="plant health legislation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="plant health control" label="plant health control">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="plantation" label="plantation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="pollution from agricultural sources" label="pollution from agricultural sources">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="sheep's milk cheese" label="sheep's milk cheese">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="soil conditioning" label="soil conditioning">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="soil pollution" label="soil pollution">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="soil preparation" label="soil preparation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="wool" label="wool">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="water pollution" label="water pollution">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="agricultural structure" label="agricultural structure">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="agricultural vehicle" label="agricultural vehicle">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="animal resources" label="animal resources">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="beef" label="beef">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="buffalo meat" label="buffalo meat">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="building" label="building">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="capital goods" label="capital goods">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="conversion to beef production" label="conversion to beef production">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="defoliation" label="defoliation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="dairy production" label="dairy production">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="goatmeat" label="goatmeat">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="horsemeat" label="horsemeat">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="herd conversion" label="herd conversion">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="harvest" label="harvest">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="insect" label="insect">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="pigmeat" label="pigmeat">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="pesticides industry" label="pesticides industry">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="plant health treatment" label="plant health treatment">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="pesticide residue" label="pesticide residue">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="potash" label="potash">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="sheepmeat" label="sheepmeat">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="storage" label="storage">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="toxic substance" label="toxic substance">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="tool industry" label="tool industry">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="veal" label="veal">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="plant variety right" label="plant variety right">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="pet shop" label="pet shop">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="sewage sludge" label="sewage sludge">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="transgenic plant" label="transgenic plant">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="swine" target="boar" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="swine" target="hog" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="swine" target="porcine species" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="swine" target="pig" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="swine" target="sow" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="swine" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="swine" target="pigmeat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="cattle" target="buffalo" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="cattle" target="bovine species" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="cattle" target="breed of cattle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="cattle" target="full-grown cattle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="cattle" target="ruminant" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="cattle" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="cattle" target="sheep's milk cheese" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="cattle" target="beef" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="cattle" target="buffalo meat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="goat" target="caprine species" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="goat" target="billy-goat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="goat" target="kid" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="goat" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="goat" target="goats’ milk cheese" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="goat" target="goatmeat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="seedling" target="cutting (plant)" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="seedling" target="means of agricultural production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="seedling" target="crop production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="seedling" target="plantation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="cervidae" target="deer" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="cervidae" target="elk" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="cervidae" target="moose" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="cervidae" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="reindeer" target="caribou" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="reindeer" target="cervidae" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="agricultural equipment" target="deadstock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="agricultural equipment" target="farm equipment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="agricultural equipment" target="means of agricultural production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="agricultural equipment" target="mutual assistance among farmers" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="agricultural equipment" target="soil preparation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="agricultural equipment" target="agricultural vehicle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="agricultural equipment" target="capital goods" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="beef animal" target="bullock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="beef animal" target="steer" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="beef animal" target="cattle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="dairy cow" target="dairy herd" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="dairy cow" target="milk cow" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="dairy cow" target="cow" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="dairy cow" target="cows’ milk cheese" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="dairy cow" target="milk" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="dairy cow" target="milk product" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="dairy cow" target="dairy production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="dairy cow" target="milking machine" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="harvester" target="combine harvester" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="harvester" target="reaping machine" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="harvester" target="agricultural machinery" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="harvester" target="harvest" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="sheep" target="ewe" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="sheep" target="lamb" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="sheep" target="ovine species" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="sheep" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="sheep" target="wool" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="sheep" target="sheepmeat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="pesticide" target="fungicide" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="pesticide" target="plant health product" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="pesticide" target="crop maintenance" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="pesticide" target="destruction of crops" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="pesticide" target="pollution from agricultural sources" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="pesticide" target="pesticide residue" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="pesticide" target="toxic substance" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="livestock" target="herd" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="livestock" target="flock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="livestock" target="live animals" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="livestock" target="animal production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="livestock" target="livestock farming" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="livestock" target="animal resources" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="livestock" target="conversion to beef production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="livestock" target="herd conversion" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="livestock" target="pet shop" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="agricultural machinery" target="farm machinery" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="agricultural machinery" target="agricultural equipment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="agricultural machinery" target="machinery" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="agricultural machinery" target="agricultural vehicle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="agricultural implement" target="farm implement" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="agricultural implement" target="agricultural equipment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="agricultural implement" target="tool industry" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="plant health product" target="plant protection product" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="plant health product" target="means of agricultural production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="plant health product" target="food contamination" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="plant health product" target="plant health legislation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="plant health product" target="plant health control" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="plant health product" target="pesticides industry" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="plant health product" target="plant health treatment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="suckler cow" target="nurse cow" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="suckler cow" target="cow" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="herbicide" target="weedkiller" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="herbicide" target="plant health product" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="herbicide" target="defoliation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="agricultural building" target="barn" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="agricultural building" target="cattle-shed" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="agricultural building" target="cow-shed" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="agricultural building" target="byre" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="agricultural building" target="farm building" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="agricultural building" target="means of agricultural production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="agricultural building" target="agricultural structure" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="agricultural building" target="building" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="equidae" target="colt" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="equidae" target="ass" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="equidae" target="equine species" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="equidae" target="foal" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="equidae" target="donkey" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="equidae" target="horse" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="equidae" target="mare" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="equidae" target="mule" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="equidae" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="equidae" target="horsemeat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="organic fertiliser" target="compost" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="organic fertiliser" target="dung" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="organic fertiliser" target="manure" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="organic fertiliser" target="organic fertilizer" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="organic fertiliser" target="liquid manure" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="organic fertiliser" target="fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="organic fertiliser" target="agricultural waste" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="organic fertiliser" target="sewage sludge" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="means of agricultural production" target="agricultural technology" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="means of agricultural production" target="agricultural infrastructure" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="means of agricultural production" target="agricultural engineering" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="means of agricultural production" target="agricultural production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="means of agricultural production" target="agricultural production policy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="chemical fertiliser" target="chemical fertilizer" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="chemical fertiliser" target="inorganic fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="chemical fertiliser" target="nitrogenous fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="chemical fertiliser" target="phosphoric fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="chemical fertiliser" target="potassium fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="chemical fertiliser" target="urea" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="chemical fertiliser" target="fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="chemical fertiliser" target="pollution from agricultural sources" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="fertiliser" target="fertilizer" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="fertiliser" target="means of agricultural production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="fertiliser" target="crop maintenance" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="fertiliser" target="fertiliser industry" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="fertiliser" target="soil conditioning" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="fertiliser" target="soil pollution" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="fertiliser" target="water pollution" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="fertiliser" target="potash" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="heifer" target="cattle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="bull" target="cattle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="calf" target="cattle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="calf" target="veal" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="cow" target="cattle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="insecticide" target="plant health product" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="insecticide" target="insect" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="livestock unit" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="150" source="milking machine" target="agricultural equipment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="151" source="milking machine" target="dairy cow" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="152" source="seed" target="means of agricultural production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="153" source="seed" target="plant variety right" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="154" source="seed" target="transgenic plant" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="155" source="tractor" target="agricultural machinery" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="156" source="tractor" target="agricultural vehicle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="157" source="silo" target="agricultural building" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="158" source="silo" target="storage" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="159" source="agricultural waste" target="organic fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="160" source="agricultural production" target="means of agricultural production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="161" source="agricultural production policy" target="means of agricultural production" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="162" source="animal production" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="163" source="crop maintenance" target="pesticide" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="164" source="crop maintenance" target="fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="165" source="crop production" target="seedling" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="166" source="cows’ milk cheese" target="dairy cow" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="167" source="destruction of crops" target="pesticide" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="168" source="fertiliser industry" target="fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="169" source="food contamination" target="plant health product" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="170" source="goats’ milk cheese" target="goat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="171" source="livestock farming" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="172" source="machinery" target="agricultural machinery" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="173" source="milk" target="dairy cow" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="174" source="milk product" target="dairy cow" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="175" source="mutual assistance among farmers" target="agricultural equipment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="176" source="plant health legislation" target="plant health product" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="177" source="plant health control" target="plant health product" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="178" source="plantation" target="seedling" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="179" source="pollution from agricultural sources" target="pesticide" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="180" source="pollution from agricultural sources" target="chemical fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="181" source="sheep's milk cheese" target="cattle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="182" source="soil conditioning" target="fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="183" source="soil pollution" target="fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="184" source="soil preparation" target="agricultural equipment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="185" source="wool" target="sheep" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="186" source="water pollution" target="fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="187" source="agricultural structure" target="agricultural building" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="188" source="agricultural vehicle" target="agricultural equipment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="189" source="agricultural vehicle" target="agricultural machinery" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="190" source="agricultural vehicle" target="tractor" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="191" source="animal resources" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="192" source="beef" target="cattle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="193" source="buffalo meat" target="cattle" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="194" source="building" target="agricultural building" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="195" source="capital goods" target="agricultural equipment" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="196" source="conversion to beef production" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="197" source="defoliation" target="herbicide" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="198" source="dairy production" target="dairy cow" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="199" source="goatmeat" target="goat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="200" source="horsemeat" target="equidae" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="201" source="herd conversion" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="202" source="harvest" target="harvester" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="203" source="insect" target="insecticide" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="204" source="pigmeat" target="swine" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="205" source="pesticides industry" target="plant health product" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="206" source="plant health treatment" target="plant health product" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="207" source="pesticide residue" target="pesticide" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="208" source="potash" target="fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="209" source="sheepmeat" target="sheep" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="210" source="storage" target="silo" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="211" source="toxic substance" target="pesticide" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="212" source="tool industry" target="agricultural implement" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="213" source="veal" target="calf" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="214" source="plant variety right" target="seed" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="215" source="pet shop" target="livestock" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="216" source="sewage sludge" target="organic fertiliser" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="217" source="transgenic plant" target="seed" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,2724 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="7" title="rels" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="weight" type="long" />
+      <attribute id="1" title="uris" type="string" />
+      <attribute id="2" title="hierarchical_in" type="long" />
+      <attribute id="3" title="hierarchical_out" type="long" />
+      <attribute id="4" title="orthogonal_out" type="long" />
+      <attribute id="5" title="label_out" type="long" />
+      <attribute id="6" title="depth" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>15/05/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="European electoral system" label="European electoral system">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4368" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="Community electoral law" label="Community electoral law">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="allocation of seats" label="allocation of seats">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3313" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="D'Hondt method" label="D'Hondt method">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="Imperiali method" label="Imperiali method">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hagenbach-Bischoff method" label="Hagenbach-Bischoff method">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="local election" label="local election">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/699" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="council election" label="council election">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="division into constituencies" label="division into constituencies">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/363" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="constituency" label="constituency">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="election campaign publicity" label="election campaign publicity">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2808" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="election campaign posters" label="election campaign posters">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="election monitoring" label="election monitoring">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3035" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="election observation" label="election observation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="electoral register" label="electoral register">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1679" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="electoral roll" label="electoral roll">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="electoral quota" label="electoral quota">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2880" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="electoral threshold" label="electoral threshold">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="universal suffrage" label="universal suffrage">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4322" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="direct election" label="direct election">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="invalidity of an election" label="invalidity of an election">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2091" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="election declared null and void" label="election declared null and void">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="distribution of seats" label="distribution of seats">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="electorate" label="electorate">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/706" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="electoral body" label="electoral body">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="elector" label="elector">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="election programme" label="election programme">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2796" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="election manifesto" label="election manifesto">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="electoral district" label="electoral district">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="national election" label="national election">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/700" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="general election" label="general election">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="registration of voters" label="registration of voters">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/694" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="inclusion on the electoral register" label="inclusion on the electoral register">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="municipal election" label="municipal election">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="electoral law" label="electoral law">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/558" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="-1" />
+        </attvalues>
+      </node>
+      <node id="national electoral law" label="national electoral law">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="-1" />
+        </attvalues>
+      </node>
+      <node id="organisation of elections" label="organisation of elections">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2186" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="organization of elections" label="organization of elections">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="distribution of votes" label="distribution of votes">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3045" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="percentage of votes" label="percentage of votes">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="list voting system" label="list voting system">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3977" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="plurinominal voting system" label="plurinominal voting system">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="secret ballot" label="secret ballot">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4766" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="polling booth" label="polling booth">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="parliamentary election" label="parliamentary election">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/701" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="senatorial election" label="senatorial election">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="uninominal voting system" label="uninominal voting system">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3982" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="single-constituency voting system" label="single-constituency voting system">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="secret vote" label="secret vote">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="simple majority" label="simple majority">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1753" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="relative majority" label="relative majority">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="qualified majority" label="qualified majority">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1750" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="reinforced majority" label="reinforced majority">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="verification of the regularity of an election" label="verification of the regularity of an election">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="uniform electoral procedure" label="uniform electoral procedure">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="turnout of voters" label="turnout of voters">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2268" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="voters" label="voters">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="counting of the votes" label="counting of the votes">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/360" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="vote count" label="vote count">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="voting intentions" label="voting intentions">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1471" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="voter poll" label="voter poll">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="voter survey" label="voter survey">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="unanimity" label="unanimity">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4593" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="unanimous vote" label="unanimous vote">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="cross voting" label="cross voting">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2223" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="vote splitting" label="vote splitting">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="double-ballot voting system" label="double-ballot voting system">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3975" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="two-ballot voting system" label="two-ballot voting system">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="voting for a single candidate" label="voting for a single candidate">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="European election" label="European election">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/697" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="election" label="election">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/695" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="absolute majority" label="absolute majority">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1746" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="majority voting" label="majority voting">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1748" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="announcement of candidacy" label="announcement of candidacy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/355" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="candidate" label="candidate">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5105" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="by-election" label="by-election">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/702" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="electoral system" label="electoral system">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="vote" label="vote">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4750" />
+          <attvalue for="2" value="13" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="early election" label="early election">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/696" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="election campaign" label="election campaign">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5097" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="election financing" label="election financing">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1013" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="electoral alliance" label="electoral alliance">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1359" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="election expenses" label="election expenses">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1082" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="electoral fraud" label="electoral fraud">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1093" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="objections to an election result" label="objections to an election result">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/159" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="fixed party list" label="fixed party list">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1678" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="indirect election" label="indirect election">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/698" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="presidential election" label="presidential election">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/704" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="primary election" label="primary election">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/705" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="withdrawal of candidacy" label="withdrawal of candidacy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/418" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="advance voting" label="advance voting">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4759" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="parliamentary seat" label="parliamentary seat">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="ballot paper" label="ballot paper">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5064" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="blank ballot paper" label="blank ballot paper">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4751" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="compulsory voting" label="compulsory voting">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4758" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="majority voting system" label="majority voting system">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3981" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="electoral deposit" label="electoral deposit">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5276" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="election result" label="election result">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3037" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="invalid ballot paper" label="invalid ballot paper">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4757" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="leave for political activities" label="leave for political activities">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5529" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="voting method" label="voting method">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/1953" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="open ballot" label="open ballot">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4765" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="plebiscite" label="plebiscite">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3044" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="postal vote" label="postal vote">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4760" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="polling station" label="polling station">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5067" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="preferential voting" label="preferential voting">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4764" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="proxy vote" label="proxy vote">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4761" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="proportional representation" label="proportional representation">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3383" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="referendum" label="referendum">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/2966" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="regional election" label="regional election">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5607" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="second ballot" label="second ballot">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4701" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="3" />
+        </attvalues>
+      </node>
+      <node id="single-ballot system" label="single-ballot system">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3976" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="vacant seat" label="vacant seat">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4159" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="votes cast" label="votes cast">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/4321" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="voting age" label="voting age">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/3041" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="abstentionism" label="abstentionism">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/5984" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="allocation clause" label="allocation clause">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6006" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="electoral reform" label="electoral reform">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/6890" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="result of the vote" label="result of the vote">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="http://eurovoc.europa.eu/7215" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="European Parliament" label="European Parliament">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="administrative court" label="administrative court">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="constitutional law" label="constitutional law">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="elective office" label="elective office">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="explanation of voting" label="explanation of voting">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="local government" label="local government">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="legitimacy" label="legitimacy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="parliament" label="parliament">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="party financing" label="party financing">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="political involvement" label="political involvement">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="political arbitration" label="political arbitration">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="political crisis" label="political crisis">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="political group" label="political group">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="political parties" label="political parties">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="political programme" label="political programme">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="right to vote" label="right to vote">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="-1" />
+        </attvalues>
+      </node>
+      <node id="right to stand for election" label="right to stand for election">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="-1" />
+        </attvalues>
+      </node>
+      <node id="directly-elected chamber" label="directly-elected chamber">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="government programme" label="government programme">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="head of State" label="head of State">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="local authority" label="local authority">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="opinion poll" label="opinion poll">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="passage of a bill" label="passage of a bill">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="parliamentary vote" label="parliamentary vote">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="politics" label="politics">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="regional authority" label="regional authority">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="regional government" label="regional government">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="self-determination" label="self-determination">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="disinformation" label="disinformation">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="direct democracy" label="direct democracy">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="political propaganda" label="political propaganda">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="2" />
+        </attvalues>
+      </node>
+      <node id="presidential régime" label="presidential régime">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="regional and local authorities" label="regional and local authorities">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+      <node id="representative democracy" label="representative democracy">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+        </attvalues>
+      </node>
+      <node id="representative of local or regional authority" label="representative of local or regional authority">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="European electoral system" target="Community electoral law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="European electoral system" target="uniform electoral procedure" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="European electoral system" target="electoral system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="European electoral system" target="European election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="allocation of seats" target="D'Hondt method" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="allocation of seats" target="Imperiali method" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="allocation of seats" target="Hagenbach-Bischoff method" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="allocation of seats" target="distribution of seats" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="allocation of seats" target="parliamentary seat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="allocation of seats" target="voting method" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="local election" target="council election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="local election" target="municipal election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="local election" target="election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="local election" target="local government" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="local election" target="local authority" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="local election" target="regional and local authorities" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="local election" target="representative of local or regional authority" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="division into constituencies" target="constituency" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="division into constituencies" target="electoral district" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="division into constituencies" target="organisation of elections" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="election campaign publicity" target="election campaign posters" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="election campaign publicity" target="election campaign" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="election campaign publicity" target="disinformation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="election campaign publicity" target="political propaganda" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="election monitoring" target="election observation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="election monitoring" target="verification of the regularity of an election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="election monitoring" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="electoral register" target="electoral roll" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="electoral register" target="electorate" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="electoral quota" target="electoral threshold" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="electoral quota" target="allocation of seats" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="electoral quota" target="proportional representation" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="universal suffrage" target="direct election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="universal suffrage" target="electoral system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="universal suffrage" target="European Parliament" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="universal suffrage" target="directly-elected chamber" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="invalidity of an election" target="election declared null and void" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="invalidity of an election" target="objections to an election result" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="electorate" target="electoral body" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="electorate" target="elector" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="electorate" target="organisation of elections" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="election programme" target="election manifesto" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="election programme" target="election campaign" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="election programme" target="political programme" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="election programme" target="government programme" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="national election" target="general election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="national election" target="election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="registration of voters" target="inclusion on the electoral register" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="registration of voters" target="electorate" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="electoral law" target="national electoral law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="electoral law" target="right to vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="electoral law" target="right to stand for election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="organisation of elections" target="organization of elections" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="distribution of votes" target="percentage of votes" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="distribution of votes" target="counting of the votes" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="list voting system" target="plurinominal voting system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="list voting system" target="voting method" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="secret ballot" target="polling booth" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="secret ballot" target="secret vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="secret ballot" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="parliamentary election" target="senatorial election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="parliamentary election" target="election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="parliamentary election" target="parliament" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="uninominal voting system" target="single-constituency voting system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="uninominal voting system" target="voting for a single candidate" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="uninominal voting system" target="voting method" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="simple majority" target="relative majority" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="simple majority" target="majority voting" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="qualified majority" target="reinforced majority" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="qualified majority" target="majority voting" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="turnout of voters" target="voters" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="turnout of voters" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="turnout of voters" target="political involvement" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="counting of the votes" target="vote count" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="counting of the votes" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="voting intentions" target="voter poll" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="voting intentions" target="voter survey" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="voting intentions" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="voting intentions" target="political group" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="voting intentions" target="opinion poll" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="unanimity" target="unanimous vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="unanimity" target="majority voting" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="cross voting" target="vote splitting" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="cross voting" target="list voting system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="double-ballot voting system" target="two-ballot voting system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="label" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="double-ballot voting system" target="majority voting system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="European election" target="election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="European election" target="European Parliament" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="European election" target="European electoral system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="election" target="elective office" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="election" target="legitimacy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="election" target="politics" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="election" target="representative democracy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="absolute majority" target="majority voting" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="majority voting" target="passage of a bill" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="majority voting" target="parliamentary vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="announcement of candidacy" target="candidate" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="candidate" target="organisation of elections" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="by-election" target="electoral system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="by-election" target="vacant seat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="vote" target="explanation of voting" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="vote" target="passage of a bill" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="vote" target="parliamentary vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="early election" target="election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="early election" target="political crisis" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="election campaign" target="organisation of elections" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="election financing" target="election campaign" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="election financing" target="party financing" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="electoral alliance" target="election campaign" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="electoral alliance" target="political parties" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="election expenses" target="election campaign" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="election expenses" target="party financing" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="electoral fraud" target="objections to an election result" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="objections to an election result" target="election monitoring" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="objections to an election result" target="administrative court" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="fixed party list" target="list voting system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="indirect election" target="electoral system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="presidential election" target="election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="presidential election" target="head of State" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="presidential election" target="presidential régime" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="primary election" target="indirect election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="withdrawal of candidacy" target="candidate" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="advance voting" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="ballot paper" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="blank ballot paper" target="counting of the votes" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="compulsory voting" target="turnout of voters" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="majority voting system" target="voting method" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="electoral deposit" target="candidate" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="election result" target="counting of the votes" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="invalid ballot paper" target="counting of the votes" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="leave for political activities" target="candidate" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="voting method" target="allocation of seats" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="open ballot" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="plebiscite" target="electoral system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="plebiscite" target="direct democracy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="postal vote" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="polling station" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="preferential voting" target="list voting system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="proxy vote" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="proportional representation" target="voting method" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="proportional representation" target="electoral quota" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="referendum" target="electoral system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="referendum" target="constitutional law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="referendum" target="political arbitration" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="referendum" target="self-determination" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="referendum" target="direct democracy" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="regional election" target="election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="regional election" target="regional authority" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="regional election" target="regional government" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="second ballot" target="double-ballot voting system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="150" source="single-ballot system" target="majority voting system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="151" source="vacant seat" target="parliamentary seat" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="152" source="vacant seat" target="by-election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="153" source="votes cast" target="counting of the votes" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="154" source="voting age" target="electorate" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="155" source="abstentionism" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="156" source="allocation clause" target="allocation of seats" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="157" source="electoral reform" target="electoral system" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="158" source="result of the vote" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="hierarchical" />
+        </attvalues>
+      </edge>
+      <edge id="159" source="result of the vote" target="parliamentary vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="160" source="European Parliament" target="universal suffrage" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="161" source="European Parliament" target="European election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="162" source="administrative court" target="objections to an election result" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="163" source="constitutional law" target="referendum" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="164" source="elective office" target="election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="165" source="explanation of voting" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="166" source="local government" target="local election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="167" source="legitimacy" target="election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="168" source="parliament" target="parliamentary election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="169" source="party financing" target="election financing" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="170" source="party financing" target="election expenses" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="171" source="political involvement" target="turnout of voters" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="172" source="political arbitration" target="referendum" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="173" source="political crisis" target="early election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="174" source="political group" target="voting intentions" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="175" source="political parties" target="electoral alliance" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="176" source="political programme" target="election programme" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="177" source="right to vote" target="electoral law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="178" source="right to stand for election" target="electoral law" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="179" source="directly-elected chamber" target="universal suffrage" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="180" source="government programme" target="election programme" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="181" source="head of State" target="presidential election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="182" source="local authority" target="local election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="183" source="opinion poll" target="voting intentions" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="184" source="passage of a bill" target="majority voting" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="185" source="passage of a bill" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="186" source="parliamentary vote" target="majority voting" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="187" source="parliamentary vote" target="vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="188" source="parliamentary vote" target="result of the vote" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="189" source="politics" target="election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="190" source="regional authority" target="regional election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="191" source="regional government" target="regional election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="192" source="self-determination" target="referendum" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="193" source="disinformation" target="election campaign publicity" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="194" source="direct democracy" target="plebiscite" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="195" source="direct democracy" target="referendum" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="196" source="political propaganda" target="election campaign publicity" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="197" source="presidential régime" target="presidential election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="198" source="regional and local authorities" target="local election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="199" source="representative democracy" target="election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+      <edge id="200" source="representative of local or regional authority" target="local election" weight="1">
+        <attvalues>
+          <attvalue for="7" value="orthogonal" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
